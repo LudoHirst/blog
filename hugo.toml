@@ -1,4 +1,4 @@
-baseURL = 'https://blog.ludohirst.me/'
+baseURL = 'https://ludohirst.me/'
 locale = 'en-gb'
 title = 'test blog'
 theme = "hugo-bearblog"
