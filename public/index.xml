@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>test blog</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on test blog</description>
+		<generator>Hugo</generator>
+		<language>en-gb</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 24 Jun 2026 15:15:14 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Test Post</title>
+				<link>http://localhost:1313/blog/my-next-post/</link>
+				<pubDate>Wed, 24 Jun 2026 15:15:14 +0100</pubDate>
+				<guid>http://localhost:1313/blog/my-next-post/</guid>
+				<description>&lt;p&gt;Test is an inline formula: ( E = mc^2 ).&lt;/p&gt;&#xA;&lt;p&gt;Test rendered display block:&lt;/p&gt;&#xA;&lt;p&gt;$$Y = \lambda f. (\lambda x. f (x\ x)) (\lambda x. f (x\ x))$$&lt;/p&gt;&#xA;&lt;p&gt;Image test:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;test.png&#34; alt=&#34;My Local Image&#34;&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
