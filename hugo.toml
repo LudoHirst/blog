@@ -1,4 +1,11 @@
 baseURL = 'https://ludohirst.me/'
 locale = 'en-gb'
-title = 'test blog'
+title = 'maths blog'
 theme = "hugo-bearblog"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['\[', '\]'], ['$$', '$$']]
+        inline = [['\(', '\)'], ['$', '$']]

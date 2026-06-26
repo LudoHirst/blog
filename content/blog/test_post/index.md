@@ -9,8 +9,7 @@ date = "2026-06-24T15:15:14+01:00"
 
 tags = []
 +++
-
-Test is an inline formula: \( E = mc^2 \).
+Inline maths test $a^2+b^2=c^2$.
 
 Test rendered display block:
 
