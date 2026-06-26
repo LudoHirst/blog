@@ -1,7 +1,15 @@
 baseURL = 'https://ludohirst.me/'
 locale = 'en-gb'
 title = 'maths blog'
+author = "Ludo Hirst"
 theme = "hugo-bearblog"
+
+[uglyURLs]
+  uglyURLs = true
+  
+[params]
+  hideMadeWithLine = true
+  
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions.passthrough]
