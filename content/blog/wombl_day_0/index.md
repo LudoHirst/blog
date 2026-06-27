@@ -29,4 +29,8 @@ They then make the utterly opaque claim that by picking our integers from specif
 
 ![diagram](diagram.png)
 
-Here $\textbf{B}$ and $B_j$ are disjoint subdivisions of $B$ and so strictly this diagram would be impossible if the x and y axis were render on the same scale. The dotted line is supposed to be fixed only in its gradient, so one should imagine it being moved about when trying to explore our degrees of freedom. Naturally also, while the points on the x-axis are fixed, we can swap their labels with each other.
+Here $\textbf{B}$ and $B_j$ are disjoint subdivisions of $B$ and so strictly this diagram would be impossible if the x and y axes were rendered at the same scale. The dotted line is supposed to be fixed only in its gradient, so one should imagine it being moved about when trying to explore our degrees of freedom. Naturally also, while the points on the x-axis are fixed, we can swap their labels with each other.
+
+In general it was attempts at clarification of this type that made up the content of my undergraduate project (A cleaned-up version of which I will publish on this website in the near future).
+
+Actual content to come tomorrow with talks by Akshat Mudgal, Davi Castro Silva and Thomas Bloom! (and hopefully a proper internet connection for me.)
