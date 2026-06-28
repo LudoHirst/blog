@@ -1,6 +1,6 @@
 +++
-title = "WOMBL 18 - day 1"
-date = "2026-06-27T23:55:44+01:00"
+title = "WOMBL 18 - day 01"
+date = "2026-06-26T23:30:00+01:00"
 darft = false
 
 #
@@ -8,24 +8,29 @@ darft = false
 #
 # description = "personal blogpost about the wombl residential 2026"
 
-tags = ["wombl18"]
+tags = ['WOMBL18']
 +++
 
-This is our only full day so there is quite a lot to get though. We had three talks before lunch: the first by Akshat Mudgal precenting [A structure theorem for sets with doubling $4 + \delta$](https://arxiv.org/abs/2604.25893), immediately followed by Davi Castro Silva with [An algorithmic Polynomial Freiman-Ruzsa theorem](https://arxiv.org/abs/2604.04547), then the extremely exciting [The sum-product conjecture is false for real numbers](https://arxiv.org/abs/2605.28781) given by Thomas Bloom.
+This year's [WOMBL](https://www.juliawolf.org/seminars/wombl18.shtml) is in Ambleside. We got underway today with some introductory activities.
 
-The talk that was the farthest outside my ken was the second one on PFR- but at least it prompted me into do some reading up on the proofs of the Freiman-Ruzsa theorem, which also plays an important role in Mudgal's paper.
+As we naturally didn't have any proper talks on the first evening so I'll take the opportunity to expound a little on the mathematical side of the 5 minute speed talk I gave.
 
-The other two contained enough that was familiar to me that I can hopeful write up something more substantial about them when I have more time (believe me I really did try and get something written today). In particular I have already read the fantastic blog post by Tom [here](https://www.erdosproblems.com/forum/thread/blog:6).
+## Erdős Szemerédi (1983)
 
-![diagram](uoc.webp)
-*^the verdant UoC Ambleside campus*
+[_the following section will only be of any interest to those how have already read the paper in question and even then only of very mild interest at best_]
 
-After lunch, and after a hike for most and a couple hours distressed note-taking for me, there was a panel discussion on AI.
+The paper is best known for the result on the lower bound for  pair-wise sum/products of integers. The result is achieved with some rather involved combinatorial reasoning, which is horrible to read but fun to explain. 
 
-Perhaps not surprisingly almost every comment made in the course of the discussion was negative. I think if I was instead at a conference on oncology, fears of the possible future destruction of the field would be tempered by talk of potential positives brought about by getting to some solutions quicker. 
+For example, in proving lemma 2.3. they ask us to take six integers $b_1, b_2, b_3, b_4, b_5, b_6$ for the subdivision $B$ (see the original paper for details) such that:
 
-Two members of the panel (Ben Green and Tom Bloom) maintain public lists of open problems ([1](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf),[2](https://www.erdosproblems.com/)) making them in my opinion the real victoms of the AI craze, as they have (much like OSS maintainers before them) been inundated with low quality AI submissions.
+$$b_1+b_3 = b_2+b_4 \quad \text{and} \quad b_1b_5 = b_2b_6.$$
 
-This points a bit a my main fear with AI which is that to protect the mathematical community against distributed denial of attention attacks by teenagers with ChatGPT-Pro subscriptions we are force to accept more formal gate-keeping and less openness in academia.
+They then make the utterly opaque claim that by picking our integers from specific subdivisions of subdivisions (again, sorry) there can be at most one solution $b_1, b_2$ for each fixed $b_3, b_4, b_5, b_6$. I hope this can be made more clear with the following diagram:
 
-The last thing I will say on AI is that every person who I asked at the conference had a paid ChatGPT account, which I very much did not expect. 
+![diagram](diagram.png)
+
+Here $\textbf{B}$ and $B_j$ are disjoint subdivisions of $B$ and so strictly this diagram would be impossible if the x and y axes were rendered at the same scale. The dotted line is supposed to be fixed only in its gradient, so one should imagine it being moved about when trying to explore our degrees of freedom. Naturally also, while the points on the x-axis are fixed, we can swap their labels with each other.
+
+In general it was attempts at clarification of this type that made up the content of my undergraduate project (A cleaned-up version of which I will publish on this website in the near future.)
+
+Actual content to come tomorrow with talks by Akshat Mudgal, Davi Castro Silva and Thomas Bloom (and hopefully a proper internet connection for me.)
