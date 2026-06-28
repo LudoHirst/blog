@@ -9,7 +9,7 @@ theme = "hugo-bearblog"
 
 [markup]
   [markup.goldmark]
-    [markup.goldmark.extensions.passthrough]
+    [renderer.unsafe]
       enable = true
       [markup.goldmark.extensions.passthrough.delimiters]
         block = [['\[', '\]'], ['$$', '$$']]
