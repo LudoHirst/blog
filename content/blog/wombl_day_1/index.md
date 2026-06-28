@@ -17,7 +17,7 @@ The talk that was the farthest outside my ken was the second one on PFR- but at 
 
 The other two contained enough that was familiar to me that I can hopeful write up something more substantial about them when I have more time (believe me I really did try and get something written today). In particular I have already read the fantastic blog post by Tom [here](https://www.erdosproblems.com/forum/thread/blog:6).
 
-![diagram](uoc.jpg)
+![diagram](uoc.webp)
 *^the verdant UoC Ambleside campus*
 
 After lunch, and after a hike for most and a couple hours distressed note-taking for me, there was a panel discussion on AI.
