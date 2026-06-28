@@ -1,5 +1,5 @@
 +++
-title = "WOMBL 18 - day 01"
+title = "WOMBL 18 - day 1"
 date = "2026-06-26T23:30:00+01:00"
 darft = false
 
